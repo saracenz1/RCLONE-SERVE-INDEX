@@ -6,4 +6,5 @@ RUN curl -O 'https://raw.githubusercontent.com/developeranaz/Rclone-olderversion
     chmod 755 /usr/bin/rclone
 COPY rcindex /usr/bin/rcindex
 RUN chmod +x /usr/bin/rcindex
+EXPOSE 80
 CMD rcindex
